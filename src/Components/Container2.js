@@ -8,7 +8,7 @@ function Container2() {
 <div className="row">
     <div className="col-">
       <h1>Collection</h1>
-      <p>Women of Africa is a collection of 10,000 unique NFTs, randomly crafted from 278 painstaking and meticulous hand-drawn attributes and 22 traits, living on the Ethereum blockchain.</p>
+      <p>Women of Africa is a collection of 10,000 unique NFTs, randomly crafted from 278 painstaking and meticulous hand-drawn attributes and 22 traits, living on the BSC blockchain.</p>
       <br /> 
       <p>The WoA NFTs are representations of Women of African from various regions of the continent  including significant figures that highlight their respective cultural aspects. </p>
       <br />

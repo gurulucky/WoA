@@ -16,8 +16,7 @@ function Container6() {
                   </div>
 
                 </div>
-                <p className='faqAnswer'>A non-fungible token, also known as an NFT is a unique unit of data that is stored on a digital ledger (Blockchain). They often represent easily reproducibl
- items such as digital images, photos, videos and audio and use blockchain technology to show verified proof of ownership</p>
+                <p className='faqAnswer'>A non-fungible token, also known as an NFT is a unique unit of data that is stored on a digital ledger (Blockchain). They often represent easily reproducible items such as digital images, photos, videos and audio and use blockchain technology to show verified proof of ownership.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -29,7 +28,7 @@ function Container6() {
                   </div>
 
                 </div>
-                <p className='faqAnswer'>There will be a total of 10,000 Women of Africa NFTs</p>
+                <p className='faqAnswer'>There will be a total of 10,000 Women of Africa NFTs.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -41,8 +40,7 @@ function Container6() {
                   </div>
 
                 </div>
-                <p className='faqAnswer'>Owning a Women of Africa NFT will enable you to unlock its super high resolution 4000 x 4000 (pixel) version, which will be available on IPFS. You’ll
-then be free to print the art yourself to create your own physical items and of course, boast about your Women of Africa NFT ownership status.</p>
+                <p className='faqAnswer'>Owning a Women of Africa NFT will enable you to unlock its super high resolution 4000 x 4000 (pixel) version, which will be available on IPFS. You’ll then be free to print the art yourself to create your own physical items and of course, boast about your Women of Africa NFT ownership status.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -54,7 +52,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>We will announce our public sale on our social media channels. So please connect to one or all our social platforms</p>
+                <p className='faqAnswer'>We will announce our public sale on our social media channels. So please connect to one or all our social platforms.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -78,7 +76,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>ERC-721 with high resolutions images hosted on IPFS. </p>
+                <p className='faqAnswer'>BEP-721 with high resolution images hosted on IPFS. </p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -90,7 +88,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>Once the sale commences, you will need a Metamask wallet holding enough Ethereum cryptocurrency to purchase a Women of Africa NFT, which can be minted on our website. Or secondary sales will be available at opensea.io or clubvirtual.io or other reputable NFT marketplace/s.. </p>
+                <p className='faqAnswer'>Once the sale commences, you will need a Metamask wallet holding enough BNB cryptocurrency to purchase a Women of Africa NFT, which can be minted on our website. Or secondary sales will be available at opensea.io or clubvirtual.io or other reputable NFT marketplace/s. </p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -102,7 +100,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>You can use your Women of Africa NFT as a profile picture (PFP) online, or you can resell your Women of Africa NFT on the secondary market. We think you should consider holding it to benefit from the utility offerings </p>
+                <p className='faqAnswer'>You can use your Women of Africa NFT as a profile picture (PFP) online, or you can resell your Women of Africa NFT on the secondary market. We think you should consider holding it to benefit from the utility offerings. </p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -138,7 +136,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>i.	0.08 Eth + Gas</p>
+                <p className='faqAnswer'>0.5 BNB + Gas</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -158,7 +156,7 @@ then be free to print the art yourself to create your own physical items and of 
                     <h2>13</h2>
                   </div>
                   <div className='faqQuestion'>
-                    <h2>m.	After I buy a Women of Africa NFT where will it be?</h2>
+                    <h2>m.	After I buy a Women of Africa NFT, where will it be?</h2>
                   </div>
 
                 </div>
@@ -182,7 +180,7 @@ then be free to print the art yourself to create your own physical items and of 
                     <h2>15</h2>
                   </div>
                   <div className='faqQuestion'>
-                    <h2>After I purchase a Women of Africa NFT will I own the IP? ?</h2>
+                    <h2>After I purchase a Women of Africa NFT will I own the IP?</h2>
                   </div>
 
                 </div>
@@ -198,7 +196,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>The royalty fees are fixed at 10%. The royalties will be used for marketing to help the Women of Africa community grow and to fund ongoing WoA activities. Our team is very committed to the long-term success of this project. </p>
+                <p className='faqAnswer'>The royalty fees are fixed at 15%. The royalties will be used for marketing to help the Women of Africa community grow and to fund ongoing WoA activities. Our team is very committed to the long-term success of this project. </p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -210,7 +208,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>500 Women of Africa NFTs will be reserved for promotion, give aways and our developers.</p>
+                <p className='faqAnswer'>500 Women of Africa NFTs will be reserved for promotion, giveaways and our developers.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -222,7 +220,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>You can contact our official team be sending an email to our official email admin@womenofafrica.io</p>
+                <p className='faqAnswer'>You can contact our official team be sending an email to our official email admin@womenofafrica.io.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -234,7 +232,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>We will hold giveaways in our Discord server and social media accounts and be rewarding those who refers us to their friends.  Please follow through our links to benefit from these and don’t forget to refer us to your friends.</p>
+                <p className='faqAnswer'>We will hold giveaways in our Discord server and social media accounts and be rewarding those who refer us to their friends.  Please follow through our links to benefit from these and don’t forget to refer us to your friends.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -256,7 +254,7 @@ then be free to print the art yourself to create your own physical items and of 
                     <h2>Will there be utility for the Women of Africa?</h2>
                   </div>
                 </div>
-                <p className='faqAnswer'>Absolutely. Between our IRL and virtual meetup plans, planned merch sale release and future NFT drops, we will continually be adding value for those holding a Women of Africa NFT.  Also, you’ll be an exclusive member of the Women of Africa socialite community and who knows what that may bring in the future..</p>
+                <p className='faqAnswer'>Absolutely. Between our IRL and virtual meetup plans, planned merch sale release and future NFT drops, we will continually be adding value for those holding a Women of Africa NFT.  Also, you’ll be an exclusive member of the Women of Africa socialite community and who knows what that may bring in the future.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -268,7 +266,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>The Women of Africa is committed to working with those who continue to promote and participate constructively in the NFT space.  If you are building the next exciting metaverse, a reputable streetwear brand, educational organisation, or other innovative project looking to collaborate with an exciting and progressive NFT project (and passionate team) then we’d love to hear from you.  Please send us an email to admin@womenofafrica.io</p>
+                <p className='faqAnswer'>The Women of Africa is committed to working with those who continue to promote and participate constructively in the NFT space.  If you are building the next exciting metaverse, a reputable streetwear brand, educational organisation, or other innovative project looking to collaborate with an exciting and progressive NFT project (and passionate team) then we’d love to hear from you.  Please send us an email to admin@womenofafrica.io.</p>
               </div>
               <div className='first-qus'>
                 <div className='d-flex align-items-center'>
@@ -280,7 +278,7 @@ then be free to print the art yourself to create your own physical items and of 
                   </div>
 
                 </div>
-                <p className='faqAnswer'>That is a decision for you to make. The Women of Africa NFTs are non-fungible tokens that represent ownership of a digital artwork only. No information on this website is or may be considered investment advice.  Our team is committed to building a strong community around the project and we believe the Women of Africa will have a long life ahead of it and will be an ever-evolving project. However, the success of the Women of Africa relies on so many factors that no one knows! Please don’t spend money you can’t afford to lose..</p>
+                <p className='faqAnswer'>That is a decision for you to make. The Women of Africa NFTs are non-fungible tokens that represent ownership of a digital artwork only. No information on this website is or may be considered investment advice.  Our team is committed to building a strong community around the project and we believe the Women of Africa will have a long life ahead of it and will be an ever-evolving project. However, the success of the Women of Africa relies on so many factors that no one knows! Please don’t spend money you can’t afford to lose.</p>
               </div>
           </div>
           {/* <div className="accordion styles"> */}

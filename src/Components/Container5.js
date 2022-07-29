@@ -30,7 +30,7 @@ function Container5() {
                     <div className='column1 team-1box'>
                         <img className='img-fluid container5-img' src={cartoon} alt="" />
                         <div>
-                            <h4>CHIEF</h4>
+                            <h4>Chief</h4>
                             <p>Passionate, charismatic, determined about using business for a positive and holistic change to society at large. Experienced entrepreneur having founded global tech companies as well sustainable mining ventures with clear goals to give back and look after mother nature. Love for Africa and its empowerment and its people is a major inspiration.</p>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function Container5() {
                         <img className='img-fluid container5-img' src={cartoon1} alt="" />
                         <div>
                             <h4>She Warrior</h4>
-                            <p>Responsible for the design and creation of the Women of Africa art with the input of the Team. Years of experience designing art for women charities from a very young age having travelled through out Africa on Charity missions. She warrior is passionate about women issues to the core.</p>
+                            <p>Responsible for the design and creation of the Women of Africa art with the input of the Team. Years of experience designing art for women charities from a very young age having travelled throughout Africa on Charity missions. She warrior is passionate about women issues to the core.</p>
                         </div>
                     </div>
                 </div>
@@ -60,7 +60,7 @@ function Container5() {
                         <img className='img-fluid container5-img' src={cartoon3} alt="" />
                         <div>
                             <h4>Technical Wiz</h4>
-                            <p>Batchelor’s degree in software engineering with over 5 years’ international, industry experience including extensive blockchain, web3, smart contract, tokens, payment systems experience. Jointly responsible for UI, backend, minting engine, smart contract development, and deployment of Women of Africa, including ongoing platform management and enhancement.</p>
+                            <p>Bachelor’s degree in software engineering with over 5 years’ international, industry experience including extensive blockchain, web3, smart contract, tokens, payment systems experience. Jointly responsible for UI, backend, minting engine, smart contract development, and deployment of Women of Africa, including ongoing platform management and enhancement.</p>
                         </div>
                     </div>
                 </div>

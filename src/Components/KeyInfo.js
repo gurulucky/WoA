@@ -36,15 +36,15 @@ export default function SectionSeven() {
                                 </tr>
                                 <tr>
                                     <td>Price per NFT</td>
-                                    <td>0.05 ETH</td>
+                                    <td>0.5 BNB</td>
                                 </tr>
                                 <tr>
                                     <td>NFT token type</td>
-                                    <td>ERC-721</td>
+                                    <td>BEP-721</td>
                                 </tr>
                                 <tr>
                                     <td>Blockchain </td>
-                                    <td>Ethereum</td>
+                                    <td>Binance Smart Chain</td>
                                 </tr>
                                 <tr>
                                     <td>Unlockable content</td>
@@ -56,15 +56,15 @@ export default function SectionSeven() {
                                 </tr>
                                 <tr>
                                     <td>Royalties</td>
-                                    <td>10% to fund Rikishi Club ongoing and new projects</td>
+                                    <td>15% to fund WoA ongoing and new projects</td>
                                 </tr>
                                 <tr>
                                     <td>Number of traits</td>
-                                    <td>25</td>
+                                    <td>22</td>
                                 </tr>
                                 <tr>
                                     <td>Number of attributes</td>
-                                    <td>223</td>
+                                    <td>278</td>
                                 </tr>
                                 <tr>
                                     <td>Minimum number of traits</td>

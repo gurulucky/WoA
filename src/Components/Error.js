@@ -8,7 +8,7 @@ export default function Error() {
             <div className="col-10 col-sm-8 col-lg-6">
                 {/* <img src={cloud} alt="" width="400" /> */}
                 <h1>404 Error page</h1>
-                <p className="lead text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam pariatur, quam quos beatae veniam est quidem qui blanditiis iure illum fugiat, atque minima ex? Accusamus similique tempora expedita quas dolorem, voluptatum ipsa harum enim natus repudiandae eligendi in cupiditate omnis nostrum voluptatem? Culpa facilis perferendis architecto provident dicta eos possimus.</p>
+                <p className="lead text-white">Oops!  We've encountered an error.  Please navigate back to Home and try again.</p>
                 <div className="d-grid gap-2 d-md-flex justify-content-md-start">
                 </div>
             </div>

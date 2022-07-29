@@ -15,7 +15,7 @@ function Footer() {
           <i className="fa-brands fa-twitter"></i>
           <i className="fa-brands fa-facebook-f marl"></i>
           <i className="fa-brands fa-whatsapp marlr"></i>
-          Copyright © 2021 - Club Virtual Pty Ltd (ACN 653 514 231) <a href='/privacy'> Privacy Policy</a> <a href='/terms'> Terms & Conditions</a>
+          Copyright © 2021 - Kinsmen Capital Pty Ltd (ACN 613 548 575) <a href='/privacy'> Privacy Policy</a> <a href='/terms'> Terms & Conditions</a>
               </div>
           </div>
       </div>

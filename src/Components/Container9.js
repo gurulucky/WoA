@@ -13,7 +13,7 @@ function Container9() {
       <div className="row pb-5">
         <div className="col-md-6 footer2 ">
           <img className='img-fluid container9-img mt-5' src={cartoon} alt="" />
-          <p>(insert website name) is a project developed by (name of developers) on (insert blockchain name) blockchain to honor and provide representation to African women online.</p>
+          <p>Women of Africa is a project developed by Kinsmen Capital Pty Ltd on the Binance Smart Chain (BSC) to honor and provide representation to African women online.</p>
         </div>
         <div className='col-md-6 mt-5'>
           <div className='list-navs-foot'>
@@ -22,7 +22,6 @@ function Container9() {
                 <div className='first-navs-list'>
                     <h3><a href="">About</a></h3>
                     <h3><a href="">Ambassadors</a></h3>
-                    <h3><a href="">PDP</a></h3>
                     <h3><a href="">Utility</a></h3>
                     <h3><a href="">Collection</a></h3>
                     <h3><a href="">Rarity</a></h3>
@@ -32,7 +31,6 @@ function Container9() {
                   <h3><a href="">Roadmap</a></h3>
                   <h3><a href="">Our Team</a></h3>
                   <h3><a href="">FAQs</a></h3>
-                  <h3><a href="">Join us</a></h3>
                   <h3><a href="">Minting</a></h3>
                 </div>
               </div>

@@ -19,7 +19,7 @@ function Container8() {
               <p>Your NFT has been Minted</p> <p>TXID : -</p>
             </div>
             <div className='w-100 d-flex justify-content-between'>
-            <p> Name : Lorem</p><p> Royalty : 0 </p>
+            <p> Name : Lorem</p><p> Royalty : 15% </p>
             </div>
             <div className='w-100 d-flex justify-content-between'>
             <p>  Contract : 7+123</p>  <p> Token Id : (7)</p>

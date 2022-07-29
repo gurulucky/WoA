@@ -44,7 +44,7 @@ function Utility() {
                 </div>
                 <div className='col-md-12 uti-para-flex'>
                     <p>7. Participate in the Women of Africa community selection of winners whose works will be made into NFT drops that will be sponsored by us </p>
-                    <p>8. Exclisive access to WoA merchandise and an opportunity to request personalization of certain WoA merchandise</p>
+                    <p>8. Exclusive access to WoA merchandise and an opportunity to request personalization of certain WoA merchandise</p>
                 </div>
             </div>
         </div>
