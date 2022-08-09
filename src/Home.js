@@ -15,7 +15,7 @@ import Ambassador from './Components/Extra';
 import Utility from './Components/Extra2';
 import PDP from './Components/Extra3';
 import secondpimg from './images/Women of america-03.png'
-import roadmap from './images/woa roadmap-28.png'
+import roadmap from './images/woa roadmap-28.png' 
 
 // import Footer from './Components/Footer';
 import  KeyInfo  from './Components/KeyInfo';

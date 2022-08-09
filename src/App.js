@@ -13,6 +13,7 @@ import AddUser from './Components/addUser'
 import Dashboard from './Components/dashboard'
 import UserRef from './Components/userRef'
 import Thankyou from './Components/Thankyou'
+// import Test from './Components/Test'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
 {/* <ScrollToTop/> */}
         <Routes>
           <Route path='/' element={<Home/>}/> 
+          {/* <Route path="/:id" element={<Test />} /> */}
           <Route path='/privacy'  element={<PrivacyPolicy/>}/>
           <Route path='/terms'  element={<TermsCondition/>}/>
           <Route path='/about'  element={<Container1/>}/>
