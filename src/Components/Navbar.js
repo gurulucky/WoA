@@ -38,7 +38,6 @@ function Navbar() {
     //         document.body.removeChild(script);
         }  
      }, [])
-
  
   return (
     
