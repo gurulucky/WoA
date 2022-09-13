@@ -99,6 +99,7 @@ function Container8() {
         const accounts = await window.ethereum.enable();
         console.log(accounts);
         dispatch(setWallet(accounts[0]))
+        window.localStorage.setItem('wallet', accounts[0])
         // console.log(await window.web3.eth.getBalance(accounts[0]));
         if (getGroupId(id) >= 0) {
           if (accounts[0] && e) {
