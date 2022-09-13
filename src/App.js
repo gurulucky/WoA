@@ -1,6 +1,10 @@
 import './App.css';
 import Home from './Home';
 import {Route,BrowserRouter as Router,Routes} from 'react-router-dom'
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+import Collection from './Components/Collection';
 import PrivacyPolicy from './Components/PrivacyPolicy'
 import TermsCondition from './Components/TermsCondition' 
 // import Navbar from './Components/Navbar';
@@ -24,6 +28,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home/>}/> 
           {/* <Route path="/:id" element={<Test />} /> */}
+          <Route path='/collection'  element={<Collection/>}/>
           <Route path='/privacy'  element={<PrivacyPolicy/>}/>
           <Route path='/terms'  element={<TermsCondition/>}/>
           <Route path='/about'  element={<Container1/>}/>
@@ -37,6 +42,7 @@ function App() {
         <div className='containerten'>
           <Footer/>
         </div>
+        <ToastContainer />
       </Router>
     </div>
   );

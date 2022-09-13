@@ -280,7 +280,7 @@ button.joinDiscord {
   font-family: monospace;
 }
 
-.header>div>div>button {
+.header button {
   font-size       : 20px;
   border          : none;
   margin-top      : 3%;
@@ -290,7 +290,7 @@ button.joinDiscord {
   color           : black;
   font-family     : monospace;
 }
-.header>div>div>button>a {
+.header button a {
   color           : black;
   text-decoration: none;
 }
@@ -1078,15 +1078,16 @@ color: #ffc800;
   border-bottom   : 10px solid #F7A7A8;
   border-right    : 10px solid #F7A7A8;
   padding         : 20px;
-  height          : 500px;
+  /* height          : 500px; */
   font-family     : monospace;
 
 }
 
 .nft {
   display        : flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap      : wrap;
+  margin-bottom: 5%;
 }
 
 .container8-img {
@@ -1103,16 +1104,16 @@ color: #ffc800;
 
 }
 
-.minting>div>button {
+.minting button {
   border          : none;
-  margin-top      : 5%;
+  /* margin-top      : 5%; */
   border-radius   : 5px;
-  padding         : 1%;
-  padding-left    : 25%;
-  padding-right   : 25%;
+  padding         : 2%;
+  padding-left    : 4%;
+  padding-right   : 4%;
   background-color: #FACB02;
   color           : rgb(0, 0, 0);
-  margin-left     : 12%;
+  /* margin-left     : 12%; */
 }
 .img-wth{
   width: 100%;
@@ -2030,3 +2031,36 @@ button,h2,h3,h4,h5,h6{
   color: black !important;
 }
 
+
+
+.mint_counter {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.counter_form {
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 3rem;
+}
+
+.mint_counter_btn,
+.mint_counter_btn1 {
+    width: 3rem;
+    height: 3rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    padding: 0 !important;
+    font-size: 1.2rem !important;
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid #ffffff !important;
+    background: none !important;
+    border-radius: 50% !important;
+    color: #ffffff !important;
+}

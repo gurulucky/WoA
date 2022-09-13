@@ -57,28 +57,25 @@ function Navbar() {
           <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10} onClick={change} aria-current="page" href="/#about">ABOUT US </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#ambassador">AMBASSADORS</a>
+          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#keyinfo">KEY INFORMATION</a>
         </li>
         {/* <li className="nav-item">
           <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#pdp">Pdp</a>
         </li> */}
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#utility">UTILITY</a>
+          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#roadmap">ROADMAP</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#collection">COLLECTION</a>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#rarity">RARITY</a>
+          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#utility">UTILITY</a>
         </li>
        
        
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#keyinfo">KEY INFORMATION</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#roadmap">ROADMAP</a>
+          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#ambassador">AMBASSADORS</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#team">OUR TEAM</a>
@@ -88,9 +85,6 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#contact">JOIN US</a>
-        </li>
-        <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#mining">MINTING</a>
         </li>
         {/* <div>
         <a className='btn' href='https://connectwallet.com/'>Connect Wallet</a>

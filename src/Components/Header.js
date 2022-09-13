@@ -11,7 +11,7 @@ function Header() {
           <h3>Launching Soon</h3>
             <h1>Women Of Africa</h1>
             <p>We’re building a vibrant community dedicated to the empowerment of African women. Honoring and celebrating the brave and beautiful Women of Africa. </p>
-           <button><a href="#contact"> Register Now</a></button><br></br>
+           <button><a href="contact"> Register Now</a></button><br></br>
            <button className='joinDiscord'><a href="#"> Join Discord</a></button>
         </div>
         <div className="col-md-6 mt-4">

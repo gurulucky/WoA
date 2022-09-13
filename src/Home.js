@@ -33,7 +33,7 @@ function Home() {
      <Container1 />
      </div>
      <div className='images' id="img-sec">
-        <img src={secondpimg} alt="not found" className='img-sec' srcset="" />
+        <img src={secondpimg} alt="not found" className='img-sec' srcSet="" />
      </div>
      <div className='keyinfo' id="keyinfo">
      <KeyInfo/>
@@ -44,7 +44,7 @@ function Home() {
      <div className='containerfour' id="roadmap">
       <br/><br/>
        <h1 className='road-flex-head'>ROADMAP</h1>
-       <img src={roadmap} alt="not found" className='img-sec' srcset="" />
+       <img src={roadmap} alt="not found" className='img-sec' srcSet="" />
     </div>
      <div className='containertwo' id="collection">
      <Container2/>
@@ -71,9 +71,9 @@ function Home() {
      <div className='containersix' id="faq">
      <Container6/>
      </div>
-     <div className='containerseven' id="contact">
+     {/* <div className='containerseven' id="contact">
      <Container7/>
-     </div>
+     </div> */}
      <div className='containernine'>
      <Container9/>
      </div>

@@ -9,7 +9,7 @@ export default function SectionSeven() {
             <h1 className="text-left d-flex keyinfo-heading justify-content-center text-white">KEY INFORMATION</h1>
             <div className='keyContainer row'>
                 <div className='col-md-6 img-keyinfo d-flex align-items-center'>
-                    <img src={img} className="w-100" alt="" srcset="" />
+                    <img src={img} className="w-100" alt="" srcSet="" />
                 </div>
                  <div className="col-md-6 container-keyinfo minus-margin-p">
                     <div className="table-parent mb-3"> 
