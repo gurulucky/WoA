@@ -45,7 +45,7 @@ function Navbar() {
   <div id='topheader'> 
       <nav className={`navbar navbar-expand-lg navbar-dark ${color && "navscroll"}`}>
   <div className="container">
-    <a  activeClass='active'spy={true} smooth={true} offset={-70} duration={10} className="navbar-brand" href="/">
+    <a  activeclass='active'spy="true" smooth="true" offset={-70} duration={10} className="navbar-brand" href="/">
         <img src={cartoon} className='logo' />
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,37 +54,37 @@ function Navbar() {
     <div className="collapse navbar-collapse navbar1" id="navbarSupportedContent">
     <ul className="navbar-nav  me-auto mb-2 mb-lg-0 ">
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10} onClick={change} aria-current="page" href="/#about">ABOUT US </a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10} onClick={change} aria-current="page" href="/#about">ABOUT US </a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#keyinfo">KEY INFORMATION</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10}  onClick={change} href="/#keyinfo">KEY INFORMATION</a>
         </li>
         {/* <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#pdp">Pdp</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10}  onClick={change} href="/#pdp">Pdp</a>
         </li> */}
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#roadmap">ROADMAP</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10}  onClick={change} href="/#roadmap">ROADMAP</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#collection">COLLECTION</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10}  onClick={change} href="/#collection">COLLECTION</a>
         </li>
         
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={10}  onClick={change} href="/#utility">UTILITY</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={10}  onClick={change} href="/#utility">UTILITY</a>
         </li>
        
        
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#ambassador">AMBASSADORS</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={100}  onClick={change} href="/#ambassador">AMBASSADORS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#team">OUR TEAM</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={100}  onClick={change} href="/#team">OUR TEAM</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#faq">FAQ</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={100}  onClick={change} href="/#faq">FAQ</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" activeClass='active'spy={true} smooth={true} offset={-70} duration={100}  onClick={change} href="/#contact">JOIN US</a>
+          <a className="nav-link" activeclass='active'spy="true" smooth="true" offset={-70} duration={100}  onClick={change} href="/#contact">JOIN US</a>
         </li>
         {/* <div>
         <a className='btn' href='https://connectwallet.com/'>Connect Wallet</a>
