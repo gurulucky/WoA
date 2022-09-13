@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useState, useEffect } from 'react'
 import { useSelector } from 'react-redux';
 import { Container, Card, Button, Row, Col, Spinner } from 'react-bootstrap'
