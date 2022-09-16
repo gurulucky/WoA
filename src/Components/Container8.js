@@ -25,7 +25,9 @@ const RENAME_PRICE = process.env.REACT_APP_RENAME_PRICE
 const NETWORK = process.env.REACT_APP_NETWORK;
 const CHAIN_ID = Number(process.env.REACT_APP_ROPSTEN_ID)
 // const NFT_ADDRESS = process.env.REACT_APP_NFT_ADDRESS
-const NFT_ADDRESS = '0x211DE30c54d8A8C28D73fC3804ed47a96DE4C01c'
+// const NFT_ADDRESS = '0x211DE30c54d8A8C28D73fC3804ed47a96DE4C01c'  //CDC ropsten
+const NFT_ADDRESS = '0xc9dC6cd16FD0CB1b5fcF038A913cC2F8550416De' //WOA ropsten
+
 
 function Container8() {
   const { id } = useParams()

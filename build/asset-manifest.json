@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a6c041b1.chunk.css",
-    "main.js": "/static/js/main.c4923b44.chunk.js",
-    "main.js.map": "/static/js/main.c4923b44.chunk.js.map",
+    "main.js": "/static/js/main.2cc4ae36.chunk.js",
+    "main.js.map": "/static/js/main.2cc4ae36.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.41c18a91.js",
     "runtime-main.js.map": "/static/js/runtime-main.41c18a91.js.map",
     "static/css/2.b28305bc.chunk.css": "/static/css/2.b28305bc.chunk.css",
-    "static/js/2.206ed70d.chunk.js": "/static/js/2.206ed70d.chunk.js",
-    "static/js/2.206ed70d.chunk.js.map": "/static/js/2.206ed70d.chunk.js.map",
+    "static/js/2.db3117a1.chunk.js": "/static/js/2.db3117a1.chunk.js",
+    "static/js/2.db3117a1.chunk.js.map": "/static/js/2.db3117a1.chunk.js.map",
     "static/js/3.8a1cdfbf.chunk.js": "/static/js/3.8a1cdfbf.chunk.js",
     "static/js/3.8a1cdfbf.chunk.js.map": "/static/js/3.8a1cdfbf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.b28305bc.chunk.css.map": "/static/css/2.b28305bc.chunk.css.map",
     "static/css/main.a6c041b1.chunk.css.map": "/static/css/main.a6c041b1.chunk.css.map",
-    "static/js/2.206ed70d.chunk.js.LICENSE.txt": "/static/js/2.206ed70d.chunk.js.LICENSE.txt",
+    "static/js/2.db3117a1.chunk.js.LICENSE.txt": "/static/js/2.db3117a1.chunk.js.LICENSE.txt",
     "static/media/1.abda127c.png": "/static/media/1.abda127c.png",
     "static/media/2.7125faf7.png": "/static/media/2.7125faf7.png",
     "static/media/3.cda34ac4.png": "/static/media/3.cda34ac4.png",
@@ -31,6 +31,7 @@
     "static/media/WOA-PICS-05.9f8f1b85.jpg": "/static/media/WOA-PICS-05.9f8f1b85.jpg",
     "static/media/WOA-PICS-06.bf42b57c.jpg": "/static/media/WOA-PICS-06.bf42b57c.jpg",
     "static/media/WOA-PICS-07.0975e9e3.jpg": "/static/media/WOA-PICS-07.0975e9e3.jpg",
+    "static/media/WoA_summary.63055bcb.txt": "/static/media/WoA_summary.63055bcb.txt",
     "static/media/Women of america-01.ee183ac5.png": "/static/media/Women of america-01.ee183ac5.png",
     "static/media/Women of america-02.3ef7e8d6.png": "/static/media/Women of america-02.3ef7e8d6.png",
     "static/media/Women of america-03.32ae6deb.png": "/static/media/Women of america-03.32ae6deb.png",
@@ -70,8 +71,8 @@
   "entrypoints": [
     "static/js/runtime-main.41c18a91.js",
     "static/css/2.b28305bc.chunk.css",
-    "static/js/2.206ed70d.chunk.js",
+    "static/js/2.db3117a1.chunk.js",
     "static/css/main.a6c041b1.chunk.css",
-    "static/js/main.c4923b44.chunk.js"
+    "static/js/main.2cc4ae36.chunk.js"
   ]
 }

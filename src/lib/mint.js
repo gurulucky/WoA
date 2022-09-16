@@ -5,6 +5,7 @@ import { NFT_ABI } from './abi.js'
 import Metadata_input from './DC_summary.txt'
 import High_res_input from './DC_Hi-Res_ipfsURI.txt'
 import Rarity_input from './DC_Rarity_Summary.txt'
+import summary_input from './WoA_summary.txt'
 import { pinJSONToIPFS } from './pinata.js'
 import axios from 'axios'
 
@@ -13,7 +14,8 @@ const ropstennet = 'https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa445616
 const mainnet = 'https://mainnet.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161';
 
 // const NFT_ADDRESS = process.env.REACT_APP_NFT_ADDRESS
-const NFT_ADDRESS = '0x211DE30c54d8A8C28D73fC3804ed47a96DE4C01c'
+// const NFT_ADDRESS = '0x211DE30c54d8A8C28D73fC3804ed47a96DE4C01c'    // CDC ropsten
+const NFT_ADDRESS = '0xc9dC6cd16FD0CB1b5fcF038A913cC2F8550416De' // WOA ropsten
 const PRICE = process.env.REACT_APP_PRICE
 const RENAME_PRICE = process.env.REACT_APP_RENAME_PRICE
 
@@ -24,36 +26,53 @@ const GROUP_PREFIX = ['GPF', 'VIP', 'C', 'G', 'M', 'P']
 const GROUP_COUNTS = [100, 100, 13, 497, 11, 6]
 const GROUP_STARTS = [1, 101, 201, 214, 711, 722]
 
-fetch(Rarity_input)
-    .then((r) => r.text())
-    .then(text => {
-        RARITY_SCORES = text.split("\n").map(item => {
-            let rarity = item.replace('\r', '')
-            rarity = rarity.split('_')
-            return rarity[rarity.length - 1]
-        })
-        // console.log(HIGH_RES_URIS)
-    })
+// fetch(Rarity_input)
+//     .then((r) => r.text())
+//     .then(text => {
+//         RARITY_SCORES = text.split("\n").map(item => {
+//             let rarity = item.replace('\r', '')
+//             rarity = rarity.split('_')
+//             return rarity[rarity.length - 1]
+//         })
+//         // console.log(HIGH_RES_URIS)
+//     })
 
-fetch(High_res_input)
-    .then((r) => r.text())
-    .then(text => {
-        HIGH_RES_URIS = text.split("\n").map(item => item.replace('\r', ''))
-        // console.log(HIGH_RES_URIS)
-    })
+// fetch(High_res_input)
+//     .then((r) => r.text())
+//     .then(text => {
+//         HIGH_RES_URIS = text.split("\n").map(item => item.replace('\r', ''))
+//         // console.log(HIGH_RES_URIS)
+//     })
 
-fetch(Metadata_input)
+// fetch(Metadata_input)
+//     .then((r) => r.text())
+//     .then(text => {
+//         var lines = text.split("\n").map(item => item.replace('\r', ''))
+//         for (var line = 1; line < lines.length; line++) {
+//             if (lines[line]) {
+//                 const infuraUrlset = lines[line].split("	");
+//                 var element = infuraUrlset[infuraUrlset.length - 1];
+//                 METADATA_URIS.push(element);
+//             }
+//         }
+//         // console.log(METADATA_URIS)
+//     })
+
+fetch(summary_input)
     .then((r) => r.text())
     .then(text => {
         var lines = text.split("\n").map(item => item.replace('\r', ''))
         for (var line = 1; line < lines.length; line++) {
             if (lines[line]) {
                 const infuraUrlset = lines[line].split("	");
-                var element = infuraUrlset[infuraUrlset.length - 1];
-                METADATA_URIS.push(element);
+                HIGH_RES_URIS.push(infuraUrlset[1])
+                RARITY_SCORES.push(infuraUrlset[2])
+                METADATA_URIS.push(infuraUrlset[infuraUrlset.length - 1]);
             }
         }
-        // console.log(METADATA_URIS)
+        console.log(HIGH_RES_URIS)
+        console.log(RARITY_SCORES)
+        console.log(METADATA_URIS)
     })
 
 export const mint = async (account, amount, groupId) => {
@@ -119,7 +138,7 @@ export const getTokenUris = async (tokenIds) => {
     let abc_contract = new web3.eth.Contract(NFT_ABI, NFT_ADDRESS);
     let tokenUris = []
     for (let i = 0; i < tokenIds.length; i++) {
-        tokenUris.push((await abc_contract.methods.tokenURI(tokenIds[i]).call()).replace('https://ipfs.infura.io','https://gateway.pinata.cloud'))
+        tokenUris.push((await abc_contract.methods.tokenURI(tokenIds[i]).call()).replace('https://ipfs.infura.io', 'https://gateway.pinata.cloud'))
     }
     return tokenUris
 }
