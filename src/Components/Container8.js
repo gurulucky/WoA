@@ -22,11 +22,13 @@ import { hasEnoughEth, mint, getTotalMinted, getSignatureForMint, shortAddress, 
 const PRICE = Number(process.env.REACT_APP_PRICE)
 const RENAME_PRICE = process.env.REACT_APP_RENAME_PRICE
 
-const NETWORK = process.env.REACT_APP_NETWORK;
-const CHAIN_ID = Number(process.env.REACT_APP_ROPSTEN_ID)
+const NETWORK = 'Georli';
+const CHAIN_ID = 5
 // const NFT_ADDRESS = process.env.REACT_APP_NFT_ADDRESS
 // const NFT_ADDRESS = '0x211DE30c54d8A8C28D73fC3804ed47a96DE4C01c'  //CDC ropsten
-const NFT_ADDRESS = '0xc9dC6cd16FD0CB1b5fcF038A913cC2F8550416De' //WOA ropsten
+const NFT_ADDRESS = '0x624A6f1809096E08DAaA9053d54bc2804DECa56E' //WOA goerli
+const PARTNER_ID = '01GKNY4N7DJV60MTAYS916P0S0'
+const PRIVATE_KEY = '0x57466afb5491ee372b3b30d82ef7e7a0583c9e36aef0f02435bd164fe172b1d3'
 
 
 function Container8() {
@@ -208,22 +210,21 @@ function Container8() {
 
   const buy = async () => {
     setBuying(true)
-    const privateKey = process.env.REACT_APP_PRIVATE_KEY;
     let groupId = getGroupId(id)
     if (groupId >= 0) {
       let signature = await getSignatureForMint(wallet, quantity, groupId)
       const signedData = signSmartContractData({
         address: wallet, //user wallet
-        commodity: 'ETH',
+        commodity: 'ETH:Ethereum-Goerli',
         commodity_amount: (PRICE * quantity).toString(),
         pk_id: 'key1',
         sc_address: NFT_ADDRESS,//ropsten abc contract
         sc_id: uuidv4(), // must be unique for any request
         sc_input_data: signature,
-      }, privateKey);
+      }, PRIVATE_KEY);
 
       const otherWidgetOptions = {
-        partner_id: process.env.REACT_APP_PARTNER_ID,
+        partner_id: PARTNER_ID,
         container_id: 'wert-widget',
         click_id: uuidv4(), // unique id of purhase in your system
         origin: 'https://sandbox.wert.io', // this option needed only for this example to work
